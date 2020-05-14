@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  .footer__line {
+    padding-top: 28%;
+  }
+  .footer__date {
+    padding-top: 30%;
+    font-family: "Saira Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    white-space: nowrap;
+    letter-spacing: -2px;
+    font-stretch: semi-condensed;
+    color: #cb3b3b;
+  }
+}

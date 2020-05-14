@@ -1,0 +1,26 @@
+{
+  "name": "porte_folio_rougier_theo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/html/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theorougier/Porte_Folio_Rougier_Theo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theorougier/Porte_Folio_Rougier_Theo/issues"
+  },
+  "homepage": "https://github.com/theorougier/Porte_Folio_Rougier_Theo#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}

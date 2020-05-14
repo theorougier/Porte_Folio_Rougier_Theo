@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: flex;
+}
+.header .header__logo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.title .title__bubble {
+  padding-top: 5%;
+}
+.title .title__text {
+  font-size: 36px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 800;
+  letter-spacing: -2px;
+  font-stretch: semi-condensed;
+  color: #cb3b3b;
+}
+.title .title__titleFirst {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.title .title__titleSecond {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  white-space: nowrap;
+}
+.title .title__subtext {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  color: #85203b;
+  font-family: "Saira Condensed", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.footer .footer__line {
+  padding-top: 28%;
+}
+.footer .footer__date {
+  padding-top: 30%;
+  font-family: "Saira Condensed", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  font-stretch: semi-condensed;
+  color: #cb3b3b;
+}
+
+/*# sourceMappingURL=/style.ff6b9f54.css.map */

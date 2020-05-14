@@ -1,0 +1,35 @@
+.title {
+  .title__bubble {
+    padding-top: 5%;
+  }
+  .title__text {
+    font-size: 36px;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-stretch: semi-condensed;
+    color: #cb3b3b;
+  }
+  .title__titleFirst {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  .title__titleSecond {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    white-space: nowrap;
+  }
+
+  .title__subtext {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: #85203b;
+    font-family: "Saira Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
+}
